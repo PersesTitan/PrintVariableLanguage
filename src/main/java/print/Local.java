@@ -1,5 +1,5 @@
 package print;
 
 public enum Local {
-    START
+    START, END
 }
