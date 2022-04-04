@@ -11,6 +11,8 @@ public class Print {
         this.end = end;
     }
 
+    public Print(String var) {
 
+    }
 
 }
