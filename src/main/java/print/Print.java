@@ -6,7 +6,7 @@ public class Print {
     private String start = null;
     private String end = null;
 
-    public Print(@NotNull String start) {
+    public Print(@NotNull String start, String end) {
 
     }
 }
