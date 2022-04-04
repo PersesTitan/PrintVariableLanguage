@@ -11,7 +11,7 @@ public class Print {
         this.end = end;
     }
 
-    public Print(@NotNull String var) {
+    public Print(@NotNull String var, Local local) {
 
     }
 
