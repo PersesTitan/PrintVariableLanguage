@@ -8,5 +8,6 @@ public class Print {
 
     public Print(@NotNull String start, @NotNull String end) {
         this.start = start;
+        this.end = end;
     }
 }
