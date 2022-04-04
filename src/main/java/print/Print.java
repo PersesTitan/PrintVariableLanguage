@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotNull;
 
 public class Print {
     private String start;
-    private String end = null;
+    private String end;
 
     public Print(@NotNull String start, @NotNull String end) {
         this.start = start;
