@@ -3,7 +3,7 @@ package print;
 import jakarta.validation.constraints.NotNull;
 
 public class Print {
-    String start;
+    String start = null;
     String end;
 
     public Print(@NotNull String start, @NotNull String end) {
