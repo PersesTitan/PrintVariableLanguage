@@ -13,7 +13,7 @@ public class Print {
         this.end = end;
     }
 
-    public Print(@NotNull String var, @NotNull Local local) throws IOException {
+    public Print(@NotNull String var, @NotNull Local local, boolean mode) throws IOException {
         if (local.equals(Local.START)) this.start = var;
         else if (local.equals(Local.END)) this.end = var;
         else throw new IOException("Local 값 오류");
